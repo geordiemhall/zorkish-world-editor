@@ -1,0 +1,181 @@
+/* Work Area
+======================================================= */
+
+
+.work-area
+	size: 100%
+	width: "calc(100% - %s)" % $sidebarWidth // exact
+	position: absolute
+	background: #eee
+	background: #F5F5F5
+	
+
+	.text-muted
+		absolute: left 0 top 40%
+		width: 100%
+		font-weight: 100
+		opacity: 0
+		pointer-events: none
+		transition: opacity .5s
+		text-align: center
+
+		h1
+			font-size: 30px
+			font-weight: 100
+			color: #888
+
+		p
+			font-size: 15px
+
+		&.show-prompt
+			opacity: 1
+
+
+/**
+* SVG styles
+*/
+
+@keyframes fade-in {
+	0% { opacity: 0 }
+	100% { opacity: 1 }
+}
+
+svg
+	absolute: top 0 left 0
+	// animation: fade-in 2s backwards
+	// transform: translateZ(0)
+
+text 
+	font-size: 11px
+	pointer-events: none
+
+
+	&.parent 
+		fill: #1f77b4
+
+.block
+.port
+	cursor: pointer
+
+.block 
+	fill: #63BBF5
+	fill-opacity: 1
+	stroke: #3687B4
+	stroke-width: 2px
+	pointer-events: all
+	font: 10px sans-serif;
+
+	&:hover
+		fill-opacity: 1
+
+	&.selected
+		stroke-width: 3px
+		stroke: #999
+
+
+.hide-link
+	stroke: none !important
+
+
+.tag-wall
+	fill: #DFD3BD
+	fill: #FFC356
+	stroke: #FF8F00
+
+
+
+.link 
+	fill: none;
+	stroke: #ccc;
+	stroke-width: 3px;
+
+.link-selected
+	stroke: #ff7f0e;
+
+.disable-pointer-events .block
+	pointer-events: none
+
+text
+	fill: rgba(0, 0, 0, 0.4) !important;
+	stroke: none !important;
+	font-weight: bold;
+
+.port
+	fill: #666
+	fill-opacity: 0.05
+	cursor: crosshair
+	// transition: all .3s
+
+	&.active
+		fill: #666
+
+	&.show
+	&.force-show
+	&.be-available
+		// fill: red
+		fill-opacity: 0.7
+
+	&:hover
+	&.is-dragging
+		fill-opacity: 1
+
+	&.highlight
+	&:hover
+		fill: red !important
+		fill-opacity: 1
+
+	&.source-connection
+		fill: magenta !important
+
+	&.valid-connection
+		fill: green !important
+
+	// &.show.active
+
+.drag_line_hidden {
+  stroke: #999;
+  stroke-width: 0;
+  pointer-events: none;
+}
+
+
+	
+
+// .parent 
+// 	fill: #eee
+// 	// fill-opacity: .1
+// 	stroke: steelblue
+
+
+// 	&:hover 
+// 		stroke: #ff7f0e
+// 		stroke-width: .5px
+
+
+// 	&.child 
+// 		pointer-events: none
+
+
+// 	&.node-map
+// 		fill: none !important
+// 		stroke: none !important
+
+
+// .node circle {
+//   fill: #fff;
+//   stroke: steelblue;
+//   stroke-width: 1.5px;
+// }
+
+// .node {
+//   font: 10px sans-serif;
+// }
+
+// .link {
+//   fill: none;
+//   stroke: #ccc;
+//   stroke-width: 1.5px;
+// }
+
+
+

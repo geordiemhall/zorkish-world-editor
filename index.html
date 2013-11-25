@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple world editor for Zorkish">
+    <meta name="author" content="Geordie Hall">
+    <title>Zorkish World Editor</title>
+    <!-- Bootstrap-->
+    <link href="vendor/css/bootstrap/bootstrap.css" rel="stylesheet">
+    <!-- Our styles-->
+    <link href="css/screen.css" rel="stylesheet">
+    <!-- Vendor scripts-->
+    <script src="vendor/js/underscore.min.js"></script>
+    <script src="vendor/js/jquery.min.js"></script>
+    <script src="vendor/js/d3.v3.js"></script>
+    <script src="vendor/js/filesaver.js"></script>
+    <!-- Our scripts-->
+    <script src="js/index.min.js"></script>
+  </head>
+  <body>
+    <div class="work-area">
+      <div class="file-container">
+        <input type="file" class="form-control file-open">
+      </div>
+      <div data-entities="none" class="text-muted">
+        <h1>No world is loaded</h1>
+        <p>Click or drag a world file here</p>
+      </div>
+      <div class="debug-console"></div>
+    </div>
+    <div class="sidebar disabled">
+      <div class="sidebar-nav"><a href="#entity" class="selected">Entity</a><a href="#player">Player</a><a href="#world">World</a></div>
+      <div class="sidebar-panes">
+        <div data-pane="entity" class="sidebar-pane"></div>
+        <div data-pane="player" class="sidebar-pane stage-right"></div>
+        <div data-pane="world" class="sidebar-pane stage-right">
+        </div>
+      </div>
+    </div>
+    <div class="drop-zone">
+      <div class="prompt-container">
+        <div class="prompts">
+          <h1 class="prompt-drop">Drop file to open</h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

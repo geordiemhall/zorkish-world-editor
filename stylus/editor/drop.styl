@@ -1,0 +1,65 @@
+/* Drop
+======================================================= */
+
+
+.drop-zone
+	size: 100%
+	absolute: 0 0
+	visibility: hidden
+	opacity: 0
+	background: rgba(#666, 0.9)
+	padding: 50px
+	transition: opacity .5s, visibility .5s .5s
+
+	
+	&.dragging
+		visibility: visible
+		opacity: 1
+		transition: opacity .5s
+		cursor: copy
+	
+
+.prompt-container	
+	display: table
+	border: 5px dashed rgba(255, 255, 255, 0.26);
+	border-radius: 50px
+	size: 100%
+	padding: 50px
+	pointer-events: none
+
+
+	
+
+	.prompts
+		display: table-cell
+		vertical-align: middle
+		text-align: center
+		color: white
+		text-shadow: 0 3px 10px rgba(#000, 0.5)
+		text-rendering: optimizeLegibility
+
+
+	h1
+		font-size: 7em
+		font-weight: 800
+
+.file-container 
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	z-index: 15;
+	cursor: pointer;
+	
+	input[type="file"] 
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		cursor: inherit;
+		font-size: 1000px !important;
+		height: 100%;
+		margin: 0;
+		opacity: 0;
+		padding: 0;

@@ -1,0 +1,1487 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"highli",
+				"highlightColor"
+			],
+			[
+				"function",
+				"assert.fail(actual, expected, message, operator, stackStartFunction);"
+			],
+			[
+				"list-item",
+				"list-item-wrapper"
+			],
+			[
+				"markerClass",
+				"markerClassesAll"
+			],
+			[
+				"advanced",
+				"advancedPage"
+			],
+			[
+				"advaced",
+				"advancedPage"
+			],
+			[
+				"linear",
+				"linear-gradient"
+			],
+			[
+				"trans",
+				"translateX"
+			],
+			[
+				"process",
+				"processSteps"
+			],
+			[
+				"footer",
+				"footerHeight"
+			],
+			[
+				"nav",
+				"navcategories"
+			],
+			[
+				"fixed",
+				"fixed-left"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"qq-up",
+				"qq-upload-list"
+			],
+			[
+				"qq",
+				"qq-upload-list"
+			],
+			[
+				"inde",
+				"indeterminate"
+			],
+			[
+				"init",
+				"initStateButtons"
+			],
+			[
+				"indetermi",
+				"indetermine"
+			],
+			[
+				"group",
+				"groupCheckboxesInStates"
+			],
+			[
+				"postC",
+				"postcodeRanges"
+			],
+			[
+				"checkbo",
+				"checkboxChange"
+			],
+			[
+				"button",
+				"buttonContainer"
+			],
+			[
+				"postc",
+				"postcodeRanges"
+			],
+			[
+				"inner",
+				"innerWidth"
+			],
+			[
+				"legendBox",
+				"legendBoxSize"
+			],
+			[
+				"get",
+				"getComputedTextLength"
+			],
+			[
+				"origin",
+				"originalDataString"
+			],
+			[
+				"circle",
+				"circleOpacity"
+			],
+			[
+				"inter",
+				"interpolationMode"
+			],
+			[
+				"stan",
+				"standardColorPalette"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"standar",
+				"standardColours"
+			],
+			[
+				"origi",
+				"originalData"
+			],
+			[
+				"origina",
+				"originalString"
+			],
+			[
+				"yAxis",
+				"yAxisWidth"
+			],
+			[
+				"decima",
+				"decimalPoints"
+			],
+			[
+				"transform",
+				"transformToPercentage"
+			],
+			[
+				"xAxis",
+				"xAxisFormat"
+			],
+			[
+				"colo",
+				"colorRange"
+			],
+			[
+				"configure",
+				"configureYAxis"
+			],
+			[
+				"circl",
+				"circleRadius"
+			],
+			[
+				"_make",
+				"_makeSharePane  (function)"
+			],
+			[
+				"so",
+				"social-share-buttons"
+			],
+			[
+				"hov",
+				"hover-delay"
+			],
+			[
+				"animation-delay",
+				"animation-delay:   (property)"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"Arial",
+				"Arial, Helvetica, sans-serif"
+			],
+			[
+				"webkit-transition",
+				"-webkit-transition-timing-function:   (property)"
+			],
+			[
+				"user-te",
+				"-webkit-user-select:   (property)"
+			],
+			[
+				"webkit-t",
+				"-webkit-transition:   (property)"
+			],
+			[
+				"id",
+				"id=  (attribute)"
+			],
+			[
+				"getCl",
+				"getClosestPage  (function)"
+			],
+			[
+				"touch",
+				"touchHistory  (namespace)"
+			],
+			[
+				"getclosest",
+				"getClosestPageForOffset  (function)"
+			],
+			[
+				"contain",
+				"containerWidth"
+			],
+			[
+				"scrol",
+				"scrollContainer"
+			],
+			[
+				"nth",
+				":nth-child(|)"
+			],
+			[
+				"iln",
+				"inline-block"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"target",
+				"target_path"
+			],
+			[
+				"targ",
+				"target_path"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"jquery",
+				"jquery	<script> (jQuery google ajax api)"
+			],
+			[
+				"jq",
+				"jquery	<script> (jQuery google ajax api)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"javsc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pandoc",
+				"Pandoc: Render Markdown to HTML"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"stylu",
+				"Set Syntax: Stylus"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"lisp",
+				"Set Syntax: Lisp"
+			],
+			[
+				"html2",
+				"HTML2Jade: Convert selection"
+			],
+			[
+				"unity",
+				"Set Syntax: Unity C#"
+			],
+			[
+				"monode",
+				"Set Syntax: MonoDevelop"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"convert sele",
+				"HTML2Jade: Convert selection"
+			],
+			[
+				"pandoc h",
+				"Pandoc: Render Markdown to HTML"
+			],
+			[
+				"pandoc ht",
+				"Pandoc: Render Markdown to HTML"
+			],
+			[
+				"html5",
+				"Set Syntax: HTML5"
+			],
+			[
+				"pandoc html",
+				"Pandoc: Render Markdown to HTML"
+			],
+			[
+				"markdown ch",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"browse ",
+				"Preferences: Browse Packages"
+			],
+			[
+				"browser",
+				"SublimeREPL: ClojureScript Browser REPL"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pan html",
+				"Pandoc: Render Markdown to HTML"
+			],
+			[
+				"both",
+				"Pandoc: Render both Markdown DocX and HTML"
+			],
+			[
+				"pandoc bo",
+				"Pandoc: Render both Markdown DocX and HTML"
+			],
+			[
+				"docx",
+				"Pandoc: Render Markdown DocX"
+			],
+			[
+				"pando",
+				"Pandoc"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown"
+			],
+			[
+				"asp",
+				"Set Syntax: ASP"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"markown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"preview",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markd",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"previ",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"prev",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"revi",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sass",
+				"Set Syntax: SASS"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"change",
+				"ChangeQuotes"
+			],
+			[
+				"add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mlti",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 633.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Geordie/Sites/elephant-dash/stylus/screen.styl",
+		"/Users/Geordie/elephant-geordie-new/Assets/Scripts/Input/Debug/DebugInputXboxController.cs",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/js/popover.js",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/reorder.html",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/vendor/recipes/form-stacked-cols-2.jade",
+		"/Volumes/inetpub/wwwadmin/shopping/discountAdd.aspx",
+		"/Volumes/inetpub/wwwadmin/ncss/shopping.styl",
+		"/Volumes/inetpub/wwwadmin/shopping/discountAdd.aspx.cs",
+		"/Volumes/inetpub/wwwadmin/shopping/discountEdit.aspx.cs",
+		"/Volumes/inetpub/wwwadmin/shopping/discountEdit.aspx",
+		"/Volumes/inetpub/wwwadmin/shopping/method.aspx.cs",
+		"/Volumes/inetpub/wwwadmin/shopping/rates.aspx.cs",
+		"/Volumes/inetpub/wwwadmin/shopping/method.aspx",
+		"/Volumes/inetpub/wwwadmin/ncss/shopping.css",
+		"/Volumes/inetpub/wwwadmin/shopping/shipping.css",
+		"/Volumes/BOSCO/DVD/Instructions/how-to-run.md",
+		"/Volumes/inetpub/wwwhtml/common/jquery.cycle.all.1.3.2.wf5-2.js",
+		"/Volumes/inetpub/wwwhtml/common/jquery.cycle.all.1.3.2.wf5.js",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/js/form.js",
+		"/Users/Geordie/Dropbox/Elephant In The Room/todo.md",
+		"/Users/Geordie/elephant-geordie-new/Assets/PulsingTextButton.cs",
+		"/Users/Geordie/elephant-geordie-new/Assets/Scripts/Managers/GUIManager.cs",
+		"/Users/Geordie/elephant-geordie-new/Assets/Managers.cs",
+		"/Users/Geordie/elephant-geordie-new/Assets/MinimapBalloons.cs",
+		"/Users/Geordie/Dropbox/21st/21st-hashtags.md",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Lab 2/Box art/box-art-copy.md",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/demo.css",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/js/shared.js",
+		"/Volumes/inetpub/wwwhtml/content/default.aspx.cs",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/js/gallery.js",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/js/index.js",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/styles/form/popovers.styl",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/styles/popover/scenes.styl",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/styles/popover/index.styl",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/styles/form/index.styl",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/styles/popover/popover.styl",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/styles/popover/lists.styl",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 7/Spike 37 - 2D Drawing/spike-report-37 (Geordies-MacBook-Pro's conflicted copy 2013-11-09).md",
+		"/Users/Geordie/Sites/sundayintheparkwithgeordie/index.html",
+		"/Users/Geordie/Sites/sundayintheparkwithgeordie/css/screen.styl",
+		"/Users/Geordie/Sites/sundayintheparkwithgeordie/css/screen.css",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/index.md",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/build.js",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 7/Spike 37 - 2D Drawing/SpikeProgram/main.cpp",
+		"/Users/Geordie/forest.zorkish",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 2/Spike 9 - Announcements & Blackboards/spike-report-9.md",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 2/Spike 8 - Messaging/spike-report-8.md",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 2/Spike 7 - Non-Blocking Game Loops/spike-report-7.md",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 2/Spike 6 - Blocking Game Loops/spike-report-6.md",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 1/Spike 3 - Debugger Use/spike-report-3.md",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 1/Spike 2 - IDE Experience Comparison/spike-report-2.md",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 1/Spike 2 - IDE Experience Comparison/comparison.md",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 1/Spike 1 - Simple Game Loop/spike-report-1.md",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 3/Spike 12 - Game State Management/spike-report-12.md",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 3/Spike 15 - Command Pattern/spike-report-15.md",
+		"/Volumes/COMET/User/Geordie/Meteorites/xcode/templates/readme.txt",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 7/Spike 34 - Game Framework Familiarisation/spike-report-34.md",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 3/Spike 13 - Composite Pattern/spike-report-13.md",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 7/Spike 35 - Initialisation & Feature Detection/SpikeProgram/main.cpp",
+		"/private/var/folders/jb/qf9cl22n73z7c2pyzyhbn5cc0000gq/T/tmpprsr2B.html",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 7/Spike 34 - Game Framework Familiarisation/spike-report-12.md",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 1/Spike 2 - IDE Experience Comparison/comparison.html",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 3/Spike 15 - Command Pattern/Zorkish/Worlds/forest.zorkish",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/vendor/recipes/form-stacked.jade",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/form-popover.jade",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/styles/form/editing.styl",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Software Project Practices & Management/Assignments/Assignment 3/details.md",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 3/Spike 13 - Composite Pattern/Zorkish/Worlds/forest.zorkish",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Digital Graphics/Assignments/Assignment 1/Digital Graphics Assignment/main.cpp",
+		"/Users/Geordie/test.js",
+		"/Users/Geordie/Library/Containers/com.sparrowmailapp.sparrow/Data/Library/Application Support/Sparrow/tmp/18F9A177-05F9-46C1-AD51-07CA9F6481B7/1BE2EFB0E8A58F4BB399B6970C33A0A003C95E921536@MAIL.hyperspike.com.au/D81E3A65-65DD-453B-ADA3-731D48FBEF05/greenlight.txt",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/index.jade",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/popover-pages/link-external.jade",
+		"/Users/Geordie/Sites/wf5/scratch/guitar-styles.css",
+		"/Users/Geordie/Library/Application Support/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/index.html",
+		"/private/var/folders/jb/qf9cl22n73z7c2pyzyhbn5cc0000gq/T/tmpIvOTE2.html",
+		"/private/var/folders/jb/qf9cl22n73z7c2pyzyhbn5cc0000gq/T/tmpKRfNT4.html",
+		"/private/var/folders/jb/qf9cl22n73z7c2pyzyhbn5cc0000gq/T/tmp9RCvC_.html",
+		"/private/var/folders/jb/qf9cl22n73z7c2pyzyhbn5cc0000gq/T/tmp1ws50N.html",
+		"/Users/Geordie/Dropbox/Elephant In The Room/geordiemhall_gmail_com.osclicense",
+		"/Volumes/COMET/User/Geordie/Meteorites/OSCulator   Purchase.html",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 3/Spike 13 - Composite Pattern/Zorkish/zorkish.cpp",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 3/Spike 13 - Composite Pattern/Zorkish/worldserializer.h",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 3/Spike 13 - Composite Pattern/Zorkish/worldserializer.cpp",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 3/Spike 13 - Composite Pattern/Zorkish/Worlds/savefile.zorkish",
+		"/Users/Geordie/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 3/Spike 13 - Composite Pattern/Zorkish/astnode.cpp",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 3/Spike 13 - Composite Pattern/Zorkish/astnode.h",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 3/Spike 13 - Composite Pattern/Zorkish/astline.cpp",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 3/Spike 13 - Composite Pattern/Zorkish/astline.h",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 3/Spike 13 - Composite Pattern/Zorkish/mapserializer.h",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 3/Spike 13 - Composite Pattern/Zorkish/mapserializer.cpp",
+		"/Applications/Unity/Documentation/ScriptReference/index.js",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 3/Spike 13 - Composite Pattern/Zorkish/Maps/test.map",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Lab 2/elephant-geordie/Assets/BalloonString.cs",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/vendor/js/jquery.oreo.gallery.js",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/js/index.min.js",
+		"/Users/Geordie/Sites/wf5/new-layout-system/css-abstraction/js/oreo-mini/index.html",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/vendor/js/jquery.oreo.2d.js",
+		"/Users/Geordie/Sites/wf5/snippets/checkbox-scale/checkbox-scale.styl",
+		"/Users/Geordie/Sites/wf5/snippets/checkbox-scale/checkbox-scale.css",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/vendor/includes/head.jade",
+		"/Users/Geordie/Sites/wf5/content-editing/dev/master-demo/js/popover.js",
+		"/Applications/Unity/Documentation/ScriptReference/MonoBehaviour.html",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Software Project Practices & Management/Assignments/Assignment 2/Chess-1/MyUnderstandProject.csv",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Lab 2/elephant-geordie/.gitignore",
+		"/Volumes/COMET/User/Geordie/Meteorites/InputManager.asset",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Lab 2/elephant-geordie/Changed Scripts/ElephantControllerLogic.cs",
+		"/Users/Geordie/Library/Application Support/Sublime Text 2/Packages/MonoDevelop/MonoDevelop.sublime-build",
+		"/Volumes/COMET/User/Geordie/Meteorites/Meteorites/crack/readme.txt",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Digital Graphics/Assignment/esp-version/main.cpp",
+		"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Digital Graphics/Assignment/Digital Graphics Assignment/main.cpp",
+		"/Users/Geordie/Sites/wf5/content-editing/easybake/easybake-oven/server.js",
+		"/Users/Geordie/Sites/wf5/content-editing/easybake/easybake-oven/app/models/recipe.js",
+		"/Users/Geordie/Sites/wf5/content-editing/easybake/easybake-oven/node_modules/express/lib/router/route.js",
+		"/Users/Geordie/Sites/wf5/content-editing/easybake/easybake-oven/app/views/categories/versions.jade",
+		"/Users/Geordie/Sites/wf5/content-editing/easybake/easybake-oven/app/controllers/shared.js",
+		"/Users/Geordie/Sites/wf5/content-editing/easybake/easybake-oven/app/views/categories/new.jade",
+		"/Users/Geordie/Sites/wf5/content-editing/easybake/easybake-oven/app/views/categories/show.jade",
+		"/Users/Geordie/Sites/wf5/content-editing/easybake/easybake-oven/app/views/categories/edit.jade",
+		"/Users/Geordie/Sites/wf5/content-editing/easybake/easybake-oven/app/views/users/form.jade",
+		"/Users/Geordie/Sites/wf5/content-editing/easybake/easybake-oven/config/routes.js",
+		"/Users/Geordie/Sites/wf5/content-editing/easybake/easybake-oven/app/controllers/recipes.js",
+		"/Users/Geordie/Sites/wf5/content-editing/easybake/easybake-oven/app/views/layouts/default-full-width.jade",
+		"/Users/Geordie/Sites/wf5/content-editing/easybake/easybake-oven/app/views/users/login.jade",
+		"/Users/Geordie/Sites/wf5/content-editing/easybake/easybake-oven/app/views/users/auth.jade",
+		"/Users/Geordie/Sites/wf5/content-editing/easybake/easybake-oven/README.md"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked",
+			"/Users/Geordie/Sites/wf5/content-editing/dev",
+			"/Volumes/inetpub/wwwadmin",
+			"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/styles/popover",
+			"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Programming/Spikes/Stream 3/Spike 13 - Composite Pattern/Zorkish",
+			"/Users/Geordie/Sites/wf5/content-editing/dev/categories",
+			"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/js",
+			"/Users/Geordie/Sites/wf5/content-editing/dev",
+			"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Lab 2/elephant-geordie/Assets/Scripts/Input/OSCuMote",
+			"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Lab 2/elephant-geordie/Assets/Scripts",
+			"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Lab 2/elephant-geordie/Assets",
+			"/Volumes/COMET/User/Geordie/Swinburne/Swinburne/Games Lab 2/elephant-geordie",
+			"/Users/Geordie/Sites/wf5/content-editing/easybake/easybake-oven/",
+			"/Users/Geordie/Sites/wf5/content-editing/easybake/easybake-oven/public",
+			"/Volumes/inetpub/wwwhtml",
+			"/Volumes/inetpub/wwwadmin",
+			"/Volumes/inetpub/wwwhtml",
+			"/Volumes/inetpub/wwwadmin",
+			"/Volumes/inetpub/wwwhtml",
+			"/Volumes/inetpub/wwwadmin",
+			"/Volumes/inetpub/wwwadmin/content",
+			"/Volumes/inetpub/wwwadmin",
+			"/Volumes/inetpub/wwwhtml",
+			"/Volumes/inetpub/wwwadmin",
+			"/Volumes/inetpub/wwwhtml",
+			"/Volumes/inetpub/wwwadmin",
+			"/Volumes/inetpub/wwwhtml",
+			"/Users/Geordie/Sites/wf5/wwwadmin-09-08-13",
+			"/Users/Geordie/Sites/wf5/content-editing/dev",
+			"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/styles",
+			"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked",
+			"/Users/Geordie/Sites/wf5/content-editing/dev/categories/forms/stacked/styles/row",
+			"/Users/Geordie/Sites/wf5/content-editing/dev/vendor/sass",
+			"/Users/Geordie/Sites/wf5/content-editing/demos/categories/galleries/decoupled-single-option",
+			"/Users/Geordie/Sites/wf5/content-editing/demos",
+			"/Users/Geordie/Sites/wf5/content-editing/demos/categories/modular/rail-follow",
+			"/Users/Geordie/Sites/wf5/content-editing/demos/categories/galleries/decoupled-single-option/styles",
+			"/Users/Geordie/Sites/wf5/content-editing/demos/categories/galleries/decoupled-single-option",
+			"/Users/Geordie/Sites/wf5/content-editing/demos/vendor/sass/admin",
+			"/Users/Geordie/Sites/wf5/content-editing/demos/vendor/stylus",
+			"/Users/Geordie/Sites/wf5/content-editing/demos/vendor/sass/admin",
+			"/Volumes/inetpub/",
+			"/Volumes/inetpub/wwwadmin/",
+			"/Volumes/inetpub/wwwadmin/content",
+			"<open folders>,<open files>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			".form-separator",
+			"selectors",
+			"selectors.",
+			".reorder-item",
+			"pageorders",
+			"showFolderTree",
+			">",
+			"Value",
+			"discountTypeField",
+			"Chose",
+			"div",
+			"fieldname",
+			"((",
+			" == \"\"",
+			"((",
+			"targetType",
+			"priceChangeType",
+			"criteriaType",
+			"targetType",
+			"discount-type",
+			"orderValueOver",
+			"}",
+			"{",
+			"percent",
+			"loadRange",
+			"maxValue",
+			"step=\"5\" min=0",
+			"dateStart",
+			"isActiveNumberOfUses",
+			"</h2>",
+			"h3",
+			"$('.containermain .fb-like')",
+			"triggerTypeField",
+			"discountTypeField",
+			"DropDownList",
+			"maxValue",
+			"range",
+			"- ",
+			"title",
+			"Range",
+			"range",
+			"Manage Ranges",
+			"id",
+			";",
+			"-	",
+			"- ",
+			"GUIAnimation",
+			"PulsingTextButton",
+			"newField:",
+			"newField(",
+			"add-field-client",
+			"Add new field",
+			"deleteField",
+			"Column",
+			"shortestFormColumn",
+			"appendToForm",
+			"\"checkbox\")",
+			"\"",
+			"deleteField",
+			"icon-bin",
+			"field",
+			"newField",
+			"wff-new-field",
+			" + i",
+			"({'",
+			"number",
+			"email",
+			"biggestHeight",
+			"determineFieldType",
+			"editField(",
+			"admin-icon-bin",
+			"delete",
+			"newField",
+			"Popover(",
+			"Popover",
+			"actions",
+			"actions:",
+			"left:",
+			"actions",
+			"back",
+			".wff-popover-grid",
+			"grid",
+			"required",
+			"'Okay'",
+			"Okay",
+			"okayBtn",
+			"'okayBtn",
+			"pageId",
+			"action:",
+			"noDeleteButton",
+			"editField",
+			"editFieldContents",
+			"edit-field",
+			"delete",
+			"editField",
+			"newField",
+			"initFormItem",
+			"initField",
+			"newField",
+			"editField",
+			"add-field-normal",
+			"$field.find",
+			"Options",
+			"'name': opts.id)",
+			"opts.id)",
+			"{",
+			":",
+			"</div>'",
+			"'<div class=\"wff-form-item control-group\">\\",
+			".wff-form-icon-",
+			".wff-cell",
+			"spacing",
+			"	",
+			".wff-form-icon-",
+			"formicon",
+			".close",
+			"span.badge.close &times;",
+			"Popover",
+			"Popover(",
+			".showScene('add-field-client')",
+			".wff-popover-sub-heading",
+			"sub-head",
+			"sub-hea",
+			"subheading",
+			"//-",
+			"wff-selected",
+			":hover",
+			"Add answer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"worldserializer",
+			"WorldSerializer",
+			"ASTFileLine",
+			"ASTLine",
+			"\\\\",
+			"'",
+			"oreo/oreo.css",
+			"oreo/oreo.js",
+			"\n	",
+			"",
+			".pad-flush",
+			"ChanceCardView",
+			".=",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 120.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"default",
+				"vendor/default.jade"
+			],
+			[
+				"reorder",
+				"categories/forms/stacked/reorder.html"
+			],
+			[
+				"form-stacked",
+				"vendor/recipes/form-stacked-cols-2.jade"
+			],
+			[
+				"theme",
+				"vendor/sass/theme/theme.scss"
+			],
+			[
+				"form-stack",
+				"vendor/recipes/form-stacked.jade"
+			],
+			[
+				"form",
+				"vendor/recipes/form-stacked.jade"
+			],
+			[
+				"",
+				"categories/forms/stacked/js/form.js"
+			],
+			[
+				"oreo2d",
+				"vendor/js/jquery.oreo.2d.js"
+			],
+			[
+				"oreo",
+				"vendor/js/jquery.oreo.2d.js"
+			],
+			[
+				"popover",
+				"master-demo/js/popover.js"
+			],
+			[
+				"head",
+				"vendor/includes/head.jade"
+			],
+			[
+				"server",
+				"server.js"
+			],
+			[
+				"routes",
+				"config/routes.js"
+			],
+			[
+				"route",
+				"config/routes.js"
+			],
+			[
+				"router",
+				"node_modules/express/lib/router/route.js"
+			],
+			[
+				"config",
+				"config/config.js"
+			],
+			[
+				"controllerrecip",
+				"app/controllers/recipes.js"
+			],
+			[
+				"comments",
+				"public/sass/recipes/_comments.scss"
+			],
+			[
+				"header",
+				"app/views/includes/header.jade"
+			],
+			[
+				"split",
+				"app/views/layouts/split-pane.jade"
+			],
+			[
+				"rout",
+				"config/routes.js"
+			],
+			[
+				"system.css",
+				"common/system.css"
+			],
+			[
+				"forms.js",
+				"content/forms.js"
+			],
+			[
+				"contentedit",
+				"wwwadmin/content/contentEdit.aspx"
+			],
+			[
+				"emailv",
+				"wwwadmin/content/ckeditor-email-v4.js"
+			],
+			[
+				"layout.css",
+				"wwwadmin/content/layout.css"
+			],
+			[
+				"layout.",
+				"wwwadmin/content/layout.cs"
+			],
+			[
+				"contentedit.as",
+				"wwwadmin/content/contentEdit.aspx"
+			],
+			[
+				"fieldedit",
+				"wwwadmin/common/fieldedit.aspx.cs"
+			],
+			[
+				"layoutv1",
+				"wwwadmin/content/layoutV1-WF5-SOURCE.js"
+			],
+			[
+				"min",
+				"wwwadmin/content/layoutV1-min.js"
+			],
+			[
+				"prodj",
+				"wwwhtml/content/product.js"
+			],
+			[
+				"fieldedit.",
+				"wwwadmin/common/fieldedit.aspx.cs"
+			],
+			[
+				"produ",
+				"wwwhtml/content/product.js"
+			],
+			[
+				"system.cs",
+				"wwwhtml/common/system.css"
+			],
+			[
+				"gra",
+				"wwwhtml/common/grayscale.js"
+			],
+			[
+				"nstruc",
+				"wwwadmin/ncss/nstructure.css"
+			],
+			[
+				"contentedit.cs",
+				"wwwadmin/content/contentEdit.aspx.cs"
+			],
+			[
+				"listing.js",
+				"wwwadmin/common/listing.js"
+			],
+			[
+				"sort.ash",
+				"wwwadmin/common/sort.ashx"
+			],
+			[
+				"product",
+				"wwwhtml/content/product.js"
+			],
+			[
+				"systemcss",
+				"wwwhtml/common/system.css"
+			],
+			[
+				"shared",
+				"categories/forms/stacked/js/shared.js"
+			],
+			[
+				"gallery-g",
+				"vendor/recipes/gallery-grid.jade"
+			],
+			[
+				"default.",
+				"vendor/default.jade"
+			],
+			[
+				"oreo2",
+				"vendor/js/jquery.oreo.2d.js"
+			],
+			[
+				"modular-n",
+				"vendor/recipes/modular-new.jade"
+			],
+			[
+				"gallery-popo",
+				"categories/galleries/decoupled-single-option/styles/gallery/gallery-popover.styl"
+			],
+			[
+				"grid",
+				"vendor/recipes/gallery-grid.jade"
+			],
+			[
+				"sprites",
+				"vendor/sass/admin/bootstrap/_sprites.scss"
+			],
+			[
+				"sprite",
+				"vendor/sass/admin/bootstrap/_sprites.scss"
+			],
+			[
+				"control",
+				"categories/galleries/decoupled-single-option/styles/popover/controls.styl"
+			],
+			[
+				"scene",
+				"categories/galleries/decoupled-single-option/styles/popover/scenes.styl"
+			],
+			[
+				"sprit",
+				"vendor/sass/admin/bootstrap/_sprites.scss"
+			],
+			[
+				"oreo.styl",
+				"categories/galleries/decoupled-single-option/styles/external/oreo.styl"
+			],
+			[
+				"flex",
+				"vendor/stylus/gallery/flexslider.styl"
+			],
+			[
+				"flexsli",
+				"vendor/js/jquery.flexslider.js"
+			],
+			[
+				"_images",
+				"vendor/sass/admin/_images.scss"
+			],
+			[
+				"gallery-pop",
+				"categories/galleries/decoupled-single-option/styles/gallery/gallery-popover.styl"
+			],
+			[
+				"nanojs",
+				"categories/galleries/decoupled-single-option/js/external/jquery.nanoscroller.js"
+			],
+			[
+				"_form",
+				"vendor/sass/admin/_formelements.scss"
+			],
+			[
+				"_overl",
+				"vendor/sass/admin/_overlay.scss"
+			],
+			[
+				"rowstyl",
+				"categories/galleries/decoupled-single-option/styles/row/rail.styl"
+			],
+			[
+				"row",
+				"categories/galleries/decoupled-expanded/js/row.js"
+			],
+			[
+				"_keyfram",
+				"vendor/sass/admin/_keyframes.scss"
+			],
+			[
+				"_popov",
+				"vendor/sass/admin/_popovers.scss"
+			],
+			[
+				"forms",
+				"vendor/sass/admin/_formelements.scss"
+			],
+			[
+				"_buttons",
+				"vendor/sass/admin/_buttons.scss"
+			],
+			[
+				"nano",
+				"categories/galleries/decoupled-single-option/styles/external/nanoscroller.styl"
+			],
+			[
+				"mag",
+				"vendor/sass/magnific-popup/magnific-popup.scss"
+			],
+			[
+				"gallerystyl",
+				"categories/galleries/decoupled-expanded/styles/gallery/gallery-front.styl"
+			],
+			[
+				"gallery.sty",
+				"categories/galleries/decoupled-expanded/styles/gallery/gallery-front.styl"
+			],
+			[
+				"demo-scal",
+				"vendor/js/demo-scaffold.js"
+			],
+			[
+				"flexstyl",
+				"vendor/stylus/gallery/flexslider.styl"
+			],
+			[
+				"foot.",
+				"vendor/includes/foot.jade"
+			],
+			[
+				"flexslid",
+				"vendor/stylus/gallery/flexslider.styl"
+			],
+			[
+				"_popo",
+				"vendor/sass/admin/_popovers.scss"
+			],
+			[
+				"index.jade",
+				"index.jade"
+			],
+			[
+				"_icons",
+				"vendor/sass/admin/_icons.scss"
+			],
+			[
+				"icons",
+				"vendor/sass/admin/_icons.scss"
+			],
+			[
+				"images",
+				"vendor/sass/admin/_images.scss"
+			],
+			[
+				"basic",
+				"vendor/sass/admin/_basic.scss"
+			],
+			[
+				"buttons",
+				"vendor/sass/admin/_buttons.scss"
+			],
+			[
+				"gallery",
+				"vendor/recipes/gallery-grid.jade"
+			],
+			[
+				"zinde",
+				"vendor/sass/admin/_zindex.scss"
+			],
+			[
+				"zindex",
+				"vendor/sass/admin/_zindex.scss"
+			],
+			[
+				"overlay",
+				"vendor/sass/admin/_overlay.scss"
+			],
+			[
+				"_sprites",
+				"vendor/sass/layout/_sprites.scss"
+			],
+			[
+				"_column",
+				"vendor/sass/layout/_columns.scss"
+			],
+			[
+				"theme.scs",
+				"vendor/sass/theme/theme.scss"
+			],
+			[
+				"_structure",
+				"vendor/sass/admin/_structure.scss"
+			],
+			[
+				"columns",
+				"vendor/sass/layout/_columns.scss"
+			],
+			[
+				"modular-one",
+				"vendor/recipes/modular-one.jade"
+			],
+			[
+				"_blocks",
+				"vendor/sass/admin/_blocks.scss"
+			],
+			[
+				"admin.scss",
+				"vendor/sass/admin/admin.scss"
+			],
+			[
+				"_oreo",
+				"vendor/sass/admin/_oreo.scss"
+			],
+			[
+				"modular-",
+				"vendor/recipes/modular-one.jade"
+			],
+			[
+				"rail-ar",
+				"categories/modular/rail-arrows/demo.styl"
+			],
+			[
+				"foot",
+				"vendor/includes/foot.jade"
+			],
+			[
+				"lists",
+				"vendor/sass/layout/_lists.scss"
+			],
+			[
+				"simple",
+				"vendor/recipes/simple.jade"
+			],
+			[
+				"modular",
+				"vendor/recipes/modular-one.jade"
+			],
+			[
+				"simple-",
+				"vendor/recipes/simple-placeholders.jade"
+			],
+			[
+				"simple-images",
+				"vendor/recipes/simple-images.jade"
+			],
+			[
+				"_tooltip",
+				"vendor/sass/admin/bootstrap/_tooltip.scss"
+			],
+			[
+				"tooltip",
+				"vendor/sass/admin/bootstrap/_tooltip.scss"
+			],
+			[
+				"simple-pl",
+				"vendor/recipes/simple-placeholders.jade"
+			],
+			[
+				"upload-inner-b",
+				"categories/inline-images/upload-inner-buttons/upload-inner-buttons.jade"
+			],
+			[
+				"build",
+				"list/build.js"
+			],
+			[
+				"simple-im",
+				"vendor/recipes/simple-images.jade"
+			],
+			[
+				"_forms",
+				"vendor/sass/admin/_formelements.scss"
+			],
+			[
+				"demos.css",
+				"vendor/css/demos.css"
+			],
+			[
+				"_mixins",
+				"vendor/sass/layout/_mixins.scss"
+			],
+			[
+				"editbar",
+				"vendor/sass/admin/_editbar.scss"
+			],
+			[
+				"admin.sc",
+				"vendor/sass/admin/admin.scss"
+			],
+			[
+				"_jqueryui",
+				"vendor/sass/admin/jqueryui/_jquery-ui-1.10.3.custom.scss"
+			],
+			[
+				"new",
+				"views/admin/new.mustache"
+			],
+			[
+				"jqueryui",
+				"public/sass/admin/jqueryui/jquery-ui-1.10.3.custom.scss"
+			],
+			[
+				"scenes",
+				"public/sass/admin/_scenes.scss"
+			],
+			[
+				"admin.",
+				"views/admin.mustache"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"main.j",
+				"public/js/main.js"
+			],
+			[
+				"edit.m",
+				"views/admin/edit.mustache"
+			],
+			[
+				"noti",
+				"public/sass/_notifications.scss"
+			],
+			[
+				"admin",
+				"public/js/admin.js"
+			],
+			[
+				"main",
+				"public/js/main.js"
+			],
+			[
+				"admin.j",
+				"public/js/admin.js"
+			],
+			[
+				"ed",
+				"views/admin/edit.mustache"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 258.0,
+	"status_bar_visible": true
+}

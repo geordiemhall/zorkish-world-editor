@@ -1,0 +1,124 @@
+/* Sidebar
+======================================================= */
+
+$sidebarPadding = 20px
+$navItemSpacing = 20px
+$navItemPadding = $navItemSpacing * 0.5
+
+$sceneSpeed = .3s
+$sceneEase = ease
+$sceneAnimation = $sceneSpeed $sceneEase
+$sceneInDelay = $sceneSpeed * 0.5
+$offStageTranslate = 20%
+
+$separatorColor = #E4E4E4
+
+.sidebar
+	size: $sidebarWidth + 1 100%
+	// position: fixed
+	fixed: right 0 top 0
+	overflow: hidden
+	background: white
+	border-left: 1px solid rgba(#000, 0.2)
+	box-shadow: -2px 0 20px rgba(#000, 0.1)
+	// padding: 0 20px
+
+	hr
+		border-color: $separatorColor
+		margin: 40px 0
+
+	&.disabled
+		opacity: 0.5
+		pointer-events: none
+
+.sidebar-nav
+	// width: 100%;
+	// height: 60px;
+	// box-sizing: border-box;
+	// padding: 15px 17px;
+	border-bottom: 1px solid $separatorColor
+	// margin-bottom: 30px
+	// margin: 0 0 30px
+	padding: 0 ($sidebarPadding - $navItemPadding)
+	transform-origin: center top
+
+	a
+		font-family: 'Helvetica Neue', Helvetica, sans-serif;
+		font-size: 18px;
+		color: #8b8b8b;
+		display: inline-block;
+		line-height: 45px;
+		height: 100%;
+		padding: 10px ($navItemPadding);
+		cursor: pointer
+
+	a:hover
+		text-decoration: none;
+		// color: #00a2ed;
+		color: rgb(0, 122, 255)	// ios7 blue
+
+	a.selected
+		font-weight: bold
+		color: #222
+		margin: 0 -2px 0 0
+
+.sidebar-panes
+	size: 100%
+	position: relative
+	background: #FCFCFC
+	
+
+.sidebar-pane
+	width: 100%
+	absolute: 0 0
+	opacity: 1
+	transform: translate3d(0, 0, 0)
+	padding: 20px $sidebarPadding
+
+	// When animating into center
+	transition: transform $sceneSpeed $sceneEase, opacity $sceneInDelay $sceneInDelay $sceneEase
+	transform: translate3d(0%, 0, 0)
+
+	&.stage-left
+	&.stage-right 
+		pointer-events: none
+		opacity: 0
+		visibility: hidden
+		transition: transform $sceneSpeed $sceneEase, opacity $sceneInDelay $sceneEase, visibility $sceneSpeed $sceneSpeed $sceneEase
+	
+
+	&.stage-left 
+		transform: translate3d(-1 * $offStageTranslate, 0, 0)// scale(0.9)
+	
+
+	&.stage-right
+		transform: translate3d($offStageTranslate, 0, 0)// scale(0.9)
+
+	.text-muted
+		// font-size: 20px
+		// text-align: center
+
+	label
+		display: block // bigger hit area
+
+	textarea
+		resize: vertical
+
+	.autofit
+		height: auto
+		opacity: 0
+		// padding-bottom: 20px
+		min-height: 54px
+		transition: padding .3s
+
+		&.focus
+			padding-bottom: 20px
+
+	.autofit-container
+		position: relative
+
+		textarea
+			absolute: top 0 left 0
+			// min-height: 54px
+			height: 100%
+

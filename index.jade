@@ -1,0 +1,69 @@
+- var useLocal = true
+
+!!! 5
+html(lang='en')
+	head
+
+		// Meta, title, CSS, favicons, etc. 
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(name='description', content='A simple world editor for Zorkish')
+		meta(name='author', content='Geordie Hall')
+
+		title
+			| Zorkish World Editor
+		
+		// Bootstrap
+		link(href='vendor/css/bootstrap/bootstrap.css', rel='stylesheet')
+		
+		// Our styles
+		link(href='css/screen.css', rel='stylesheet')
+		
+		// Vendor scripts
+		script(src='vendor/js/underscore.min.js')
+		script(src= useLocal ? 'vendor/js/jquery.min.js' : 'http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js')
+		script(src= useLocal ? 'vendor/js/d3.v3.js' : 'http://d3js.org/d3.v3.min.js')
+		script(src='vendor/js/filesaver.js')
+		
+		// Our scripts
+		script(src='js/index.min.js')
+		
+
+	body
+		.work-area
+			//- p Here's the work area
+
+			.file-container
+				input.form-control.file-open(type="file")
+
+			.text-muted(data-entities="none")
+				h1 No world is loaded
+				p Click or drag a world file here
+
+			.debug-console
+
+
+		.sidebar.disabled
+			.sidebar-nav
+				a.selected(href="#entity") Entity
+				a(href="#player") Player
+				a(href="#world") World
+			
+			.sidebar-panes
+				.sidebar-pane(data-pane="entity")
+				.sidebar-pane.stage-right(data-pane="player")
+				.sidebar-pane.stage-right(data-pane="world")
+
+			
+					//- .form-group
+						label(for="openWorld") Load new world
+						input.form-control.file-open(type="file", name="openWorld")
+
+			
+
+		.drop-zone
+			.prompt-container
+				.prompts
+					h1.prompt-drop Drop file to open
+					//- h1.prompt-drop Drop file to open
