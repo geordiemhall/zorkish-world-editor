@@ -96,7 +96,7 @@ text {
 }
 .port {
   fill: #666;
-  fill-opacity: 0.05;
+  fill-opacity: 0;
   cursor: crosshair;
 }
 .port.active {
@@ -122,7 +122,7 @@ text {
 .port.valid-connection {
   fill: #008000 !important;
 }
-.drag_line_hidden {
+.line_hidden {
   stroke: #999;
   stroke-width: 0;
   pointer-events: none;
