@@ -55,11 +55,19 @@ text
 
 .block
 .port
+.block-object
 	cursor: pointer
 
 
 .hide-link
 	stroke: none !important
+
+
+.block-object
+	fill: white
+	fill-opacity: 0.3
+	stroke: white
+	stroke-width: 2px
 
 .block 
 	// Default node is baby blue
@@ -84,8 +92,10 @@ text
 
 	// Default selecte
 	&.selected
-		stroke: #3E9BCE;
-		fill: #AEE8FF;
+		// stroke: #3E9BCE;
+		// fill: #AEE8FF;
+		stroke-width: 5px
+		stroke: hsl(322, 100%, 77%)
 
 #arrowhead
 	fill: grey
@@ -96,9 +106,9 @@ text
 	fill: #FFC356
 	stroke: #FF8F00
 
-	&.selected
-		fill: #FFDEA1;
-		stroke: #FFAA3D;
+	// &.selected
+	// 	fill: #FFDEA1;
+	// 	stroke: #FFAA3D;
 
 
 .is-dragging-link *
@@ -124,10 +134,18 @@ text
 .disable-pointer-events .block
 	pointer-events: none
 
+.no-events
+	pointer-events: none
+
 .node-label
+.block-object-label
 	fill: rgba(0, 0, 0, 0.4);
 	stroke: none !important;
 	font-weight: bold;
+
+.block-object-label
+	font-size: 150%
+	fill: rgba(0, 0, 0, 0.8);
 
 .port
 	fill: #666
@@ -183,7 +201,12 @@ svg
 	pointer-events: none
 
 .spawn-block
-	fill: red !important
+	fill: hsl(118, 76%, 70%);
+	stroke: hsl(142, 54%, 45%);
+
+.red-block
+	fill: hsl(0, 100%, 72%)
+	stroke: hsl(0, 100%, 41%);
 
 .port-label
 	pointer-events: none

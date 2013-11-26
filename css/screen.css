@@ -49,11 +49,18 @@ text {
   pointer-events: none;
 }
 .block,
-.port {
+.port,
+.block-object {
   cursor: pointer;
 }
 .hide-link {
   stroke: none !important;
+}
+.block-object {
+  fill: #fff;
+  fill-opacity: 0.3;
+  stroke: #fff;
+  stroke-width: 2px;
 }
 .block {
   fill: #63bbf5;
@@ -71,8 +78,8 @@ text {
   cursor: crosshair;
 }
 .block.selected {
-  stroke: #3e9bce;
-  fill: #aee8ff;
+  stroke-width: 5px;
+  stroke: #ff8ad4;
 }
 #arrowhead {
   fill: #808080;
@@ -80,10 +87,6 @@ text {
 [data-tags~="tag-wall"] {
   fill: #ffc356;
   stroke: #ff8f00;
-}
-[data-tags~="tag-wall"].selected {
-  fill: #ffdea1;
-  stroke: #ffaa3d;
 }
 .is-dragging-link * {
   cursor: crosshair;
@@ -103,10 +106,18 @@ text {
 .disable-pointer-events .block {
   pointer-events: none;
 }
-.node-label {
+.no-events {
+  pointer-events: none;
+}
+.node-label,
+.block-object-label {
   fill: rgba(0,0,0,0.4);
   stroke: none !important;
   font-weight: bold;
+}
+.block-object-label {
+  font-size: 150%;
+  fill: rgba(0,0,0,0.8);
 }
 .port {
   fill: #666;
@@ -149,7 +160,12 @@ svg {
   pointer-events: none;
 }
 .spawn-block {
-  fill: #f00 !important;
+  fill: #7ced78;
+  stroke: #35b162;
+}
+.red-block {
+  fill: #ff7070;
+  stroke: #d10000;
 }
 .port-label {
   pointer-events: none;

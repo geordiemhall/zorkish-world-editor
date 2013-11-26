@@ -374,9 +374,11 @@
 
 		})
 
-		nodeTags.forEach(function(d){
+		// nodeTags.forEach(function(d){
 
-		})
+		// })
+
+		$tags.attr('id', 'tag-picker').selectpicker()
 
 
 
@@ -384,28 +386,14 @@
 
 		
 
-		// $tags.on('keyup change', function(e){
-			
-
-		// 	var newValue = $(this).val()
-
-		// 	self.graphNode.prop(property, newValue)
-
-		// 	console.log(property, 'newValue', newValue)
-		// })
-
-		
-
-		
-		// var initialValue = self.graphNode.prop(property)
-		
-		// Fill with the default value
-		// $tags
-		// 	.val(initialValue)
-		// 	.change().keyup()	// and trigger change so that it can update if it needs to
-
-
-		
+		$tags.on('change', function(e){
+			var selectedTags = []
+			$(this).find(':selected').each(function(i, d){
+				selectedTags.push($(this).val())
+			})
+			self.graphNode.prop('TAGS', tagsToString(selectedTags))
+			self.graphNode.graph.propertyDidChange()
+		})
 
 
 		return $container

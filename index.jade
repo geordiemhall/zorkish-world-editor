@@ -15,7 +15,12 @@ html(lang='en')
 			| Zorkish World Editor
 		
 		// Bootstrap
+		link(href='vendor/css/bootstrap-select.css', rel='stylesheet')
 		link(href='vendor/css/bootstrap/bootstrap.css', rel='stylesheet')
+		<!-- 3.0 -->
+		//- <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+		
+		
 		
 		// Our styles
 		link(href='css/screen.css', rel='stylesheet')
@@ -25,9 +30,12 @@ html(lang='en')
 		script(src= useLocal ? 'vendor/js/jquery.min.js' : 'http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js')
 		script(src= useLocal ? 'vendor/js/d3.v3.js' : 'http://d3js.org/d3.v3.min.js')
 		script(src='vendor/js/filesaver.js')
+		script(src='vendor/js/bootstrap-select.js')
 		
 		// Our scripts
 		script(src='js/index.min.js')
+
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 		
 
 	body

@@ -2,6 +2,30 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
+    "\/vendor\/stylus\/bootstrap\/navbar.styl" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/vendor\/stylus\/bootstrap\/navbar.styl",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/navbar.css",
+      "fileType" : 8,
+      "debugStyle" : 0
+    },
+    "\/vendor\/stylus\/bootstrap\/grid.styl" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/vendor\/stylus\/bootstrap\/grid.styl",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/grid.css",
+      "fileType" : 8,
+      "debugStyle" : 0
+    },
     "\/vendor\/js\/jquery.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -13,15 +37,15 @@
       "outputAbbreviatedPath" : "\/vendor\/js\/jquery.min.js",
       "fileType" : 64
     },
-    "\/vendor\/stylus\/bootstrap\/grid.styl" : {
+    "\/vendor\/stylus\/bootstrap\/labels.styl" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/vendor\/stylus\/bootstrap\/grid.styl",
+      "inputAbbreviatedPath" : "\/vendor\/stylus\/bootstrap\/labels.styl",
       "outputStyle" : 0,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/grid.css",
+      "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/labels.css",
       "fileType" : 8,
       "debugStyle" : 0
     },
@@ -37,18 +61,6 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/vendor\/stylus\/bootstrap\/navbar.styl" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/vendor\/stylus\/bootstrap\/navbar.styl",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/navbar.css",
-      "fileType" : 8,
-      "debugStyle" : 0
-    },
     "\/vendor\/stylus\/bootstrap\/tables.styl" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -60,17 +72,6 @@
       "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/tables.css",
       "fileType" : 8,
       "debugStyle" : 0
-    },
-    "\/lab\/force-graphs\/patent-suits_files\/d3.layout.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lab\/force-graphs\/patent-suits_files\/d3.layout.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/lab\/force-graphs\/patent-suits_files\/d3.layout.min.js",
-      "fileType" : 64
     },
     "\/vendor\/stylus\/bootstrap\/progress-bars.styl" : {
       "ignoreWasSetByUser" : 0,
@@ -116,15 +117,15 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/vendor\/stylus\/bootstrap\/tooltip.styl" : {
+    "\/vendor\/stylus\/bootstrap\/bootstrap.styl" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/vendor\/stylus\/bootstrap\/tooltip.styl",
+      "inputAbbreviatedPath" : "\/vendor\/stylus\/bootstrap\/bootstrap.styl",
       "outputStyle" : 0,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/tooltip.css",
+      "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/bootstrap.css",
       "fileType" : 8,
       "debugStyle" : 0
     },
@@ -160,14 +161,16 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/vendor\/css\/bootstrap\/bootstrap.css" : {
+    "\/js\/editor\/file.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/bootstrap.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/js\/editor\/file.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/editor\/file.min.js",
+      "fileType" : 64
     },
     "\/vendor\/stylus\/bootstrap\/close.styl" : {
       "ignoreWasSetByUser" : 0,
@@ -181,15 +184,15 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/vendor\/stylus\/bootstrap\/bootstrap.styl" : {
+    "\/vendor\/stylus\/bootstrap\/tooltip.styl" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/vendor\/stylus\/bootstrap\/bootstrap.styl",
+      "inputAbbreviatedPath" : "\/vendor\/stylus\/bootstrap\/tooltip.styl",
       "outputStyle" : 0,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/bootstrap.css",
+      "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/tooltip.css",
       "fileType" : 8,
       "debugStyle" : 0
     },
@@ -223,16 +226,14 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/js\/editor\/file.js" : {
+    "\/vendor\/css\/bootstrap\/bootstrap.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/editor\/file.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/editor\/file.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/bootstrap.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/lab\/force-graphs\/force-states_files\/d3.layout.js" : {
       "ignoreWasSetByUser" : 0,
@@ -244,6 +245,26 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/lab\/force-graphs\/force-states_files\/d3.layout.min.js",
       "fileType" : 64
+    },
+    "\/vendor\/js\/bootstrap-select.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/vendor\/js\/bootstrap-select.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/vendor\/js\/bootstrap-select.min.js",
+      "fileType" : 64
+    },
+    "\/vendor\/css\/bootstrap-select.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/vendor\/css\/bootstrap-select.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/lab\/force-graphs\/force-states_files\/d3.geo.js" : {
       "ignoreWasSetByUser" : 0,
@@ -314,15 +335,6 @@
       "outputAbbreviatedPath" : "\/vendor\/js\/jquery.min.min.js",
       "fileType" : 64
     },
-    "\/lab\/force-graphs\/patent-suits.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lab\/force-graphs\/patent-suits.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/vendor\/stylus\/bootstrap\/navs.styl" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -334,27 +346,6 @@
       "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/navs.css",
       "fileType" : 8,
       "debugStyle" : 0
-    },
-    "\/vendor\/stylus\/bootstrap\/print.styl" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/vendor\/stylus\/bootstrap\/print.styl",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/print.css",
-      "fileType" : 8,
-      "debugStyle" : 0
-    },
-    "\/css\/screen.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/screen.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/vendor\/stylus\/bootstrap\/media.styl" : {
       "ignoreWasSetByUser" : 0,
@@ -368,15 +359,24 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/vendor\/stylus\/bootstrap\/pager.styl" : {
+    "\/css\/screen.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/vendor\/stylus\/bootstrap\/pager.styl",
+      "inputAbbreviatedPath" : "\/css\/screen.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/vendor\/stylus\/bootstrap\/print.styl" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/vendor\/stylus\/bootstrap\/print.styl",
       "outputStyle" : 0,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/pager.css",
+      "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/print.css",
       "fileType" : 8,
       "debugStyle" : 0
     },
@@ -391,6 +391,15 @@
       "outputAbbreviatedPath" : "\/lab\/force-graphs\/force-states_files\/d3.min.js",
       "fileType" : 64
     },
+    "\/lab\/force-graphs\/patent-suits.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lab\/force-graphs\/patent-suits.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/vendor\/stylus\/bootstrap\/scaffolding.styl" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -400,6 +409,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/scaffolding.css",
+      "fileType" : 8,
+      "debugStyle" : 0
+    },
+    "\/vendor\/stylus\/bootstrap\/pager.styl" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/vendor\/stylus\/bootstrap\/pager.styl",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/pager.css",
       "fileType" : 8,
       "debugStyle" : 0
     },
@@ -708,18 +729,6 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/vendor\/stylus\/bootstrap\/utilities.styl" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/vendor\/stylus\/bootstrap\/utilities.styl",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/utilities.css",
-      "fileType" : 8,
-      "debugStyle" : 0
-    },
     "\/vendor\/stylus\/bootstrap\/component-animations.styl" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -729,6 +738,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/component-animations.css",
+      "fileType" : 8,
+      "debugStyle" : 0
+    },
+    "\/vendor\/stylus\/bootstrap\/utilities.styl" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/vendor\/stylus\/bootstrap\/utilities.styl",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/utilities.css",
       "fileType" : 8,
       "debugStyle" : 0
     },
@@ -754,17 +775,6 @@
       "initialSize" : 13236,
       "fileType" : 8192
     },
-    "\/vendor\/js\/d3.v3.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/vendor\/js\/d3.v3.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/vendor\/js\/d3.v3.min.min.js",
-      "fileType" : 64
-    },
     "\/vendor\/js\/underscore.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -774,6 +784,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/vendor\/js\/underscore.min.min.js",
+      "fileType" : 64
+    },
+    "\/vendor\/js\/d3.v3.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/vendor\/js\/d3.v3.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/vendor\/js\/d3.v3.min.min.js",
       "fileType" : 64
     },
     "\/vendor\/stylus\/bootstrap\/jumbotron.styl" : {
@@ -924,17 +945,16 @@
       "fileType" : 8,
       "debugStyle" : 0
     },
-    "\/vendor\/stylus\/bootstrap\/labels.styl" : {
+    "\/lab\/force-graphs\/patent-suits_files\/d3.layout.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/vendor\/stylus\/bootstrap\/labels.styl",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/vendor\/css\/bootstrap\/labels.css",
-      "fileType" : 8,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/lab\/force-graphs\/patent-suits_files\/d3.layout.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/lab\/force-graphs\/patent-suits_files\/d3.layout.min.js",
+      "fileType" : 64
     }
   },
   "manualImportLinks" : [
