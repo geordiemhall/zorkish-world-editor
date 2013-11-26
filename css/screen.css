@@ -57,7 +57,6 @@ text {
 }
 .block {
   fill: #63bbf5;
-  fill-opacity: 0.9;
   stroke: #3687b4;
   stroke-width: 2px;
   pointer-events: all;
@@ -148,6 +147,9 @@ svg {
 }
 .disable-pointer-events {
   pointer-events: none;
+}
+.spawn-block {
+  fill: #f00 !important;
 }
 .port-label {
   pointer-events: none;
