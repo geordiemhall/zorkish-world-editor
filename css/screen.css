@@ -48,16 +48,16 @@ text {
   font-size: 11px;
   pointer-events: none;
 }
-text.parent {
-  fill: #1f77b4;
-}
 .block,
 .port {
   cursor: pointer;
 }
+.hide-link {
+  stroke: none !important;
+}
 .block {
   fill: #63bbf5;
-  fill-opacity: 1;
+  fill-opacity: 0.9;
   stroke: #3687b4;
   stroke-width: 2px;
   pointer-events: all;
@@ -66,61 +66,108 @@ text.parent {
 .block:hover {
   fill-opacity: 1;
 }
+.block.port-select {
+  fill: #6bee75;
+  stroke: rgba(0,128,0,0.39);
+  cursor: crosshair;
+}
 .block.selected {
-  stroke-width: 3px;
-  stroke: #999;
+  stroke: #3e9bce;
+  fill: #aee8ff;
 }
-.hide-link {
-  stroke: none !important;
+#arrowhead {
+  fill: #808080;
 }
-.tag-wall {
-  fill: #dfd3bd;
+[data-tags~="tag-wall"] {
   fill: #ffc356;
   stroke: #ff8f00;
+}
+[data-tags~="tag-wall"].selected {
+  fill: #ffdea1;
+  stroke: #ffaa3d;
+}
+.is-dragging-link * {
+  cursor: crosshair;
 }
 .link {
   fill: none;
   stroke: #ccc;
   stroke-width: 3px;
 }
+.link.is-dragging {
+  stroke: rgba(0,128,0,0.39);
+  pointer-events: none;
+}
 .link-selected {
-  stroke: #ff7f0e;
+  stroke: rgba(0,128,0,0.39);
 }
 .disable-pointer-events .block {
   pointer-events: none;
 }
-text {
-  fill: rgba(0,0,0,0.4) !important;
+.node-label {
+  fill: rgba(0,0,0,0.4);
   stroke: none !important;
   font-weight: bold;
 }
 .port {
   fill: #666;
   fill-opacity: 0;
-  cursor: crosshair;
 }
-.port.active {
+.port.node-hover {
+  fill-opacity: 0.8;
+}
+.port.hover,
+.port.show {
+  fill-opacity: 1;
+}
+.port.linked {
   fill: #666;
 }
-.port.show,
-.port.force-show,
-.port.be-available {
-  fill-opacity: 0.7;
+.port.hover {
+  fill: #6bee75;
+  stroke: rgba(0,128,0,0.39);
+  stroke-width: 2px;
+  cursor: crosshair;
 }
-.port:hover,
-.port.is-dragging {
-  fill-opacity: 1;
-}
-.port.highlight,
-.port:hover {
-  fill: #f00 !important;
-  fill-opacity: 1;
+.port.highlight {
+  fill: #f00;
 }
 .port.source-connection {
-  fill: #f0f !important;
+  fill: #6bee75;
+  stroke: rgba(0,128,0,0.39);
+  stroke-width: 2px;
 }
-.port.valid-connection {
-  fill: #008000 !important;
+.is-dragging-new-node * {
+  cursor: copy !important;
+}
+svg {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.disable-pointer-events {
+  pointer-events: none;
+}
+.port-label {
+  pointer-events: none;
+  fill: #fff;
+  fill-opacity: 0;
+}
+.port-label.node-hover {
+  fill-opacity: 0.8;
+}
+.port-label.hover,
+.port-label.show {
+  fill-opacity: 1;
+  fill: #299614;
+  font-weight: bold;
+  cursor: crosshair;
+}
+.port-label.hover {
+  fill: #299614;
+  font-weight: bold;
+  cursor: crosshair;
 }
 .line_hidden {
   stroke: #999;

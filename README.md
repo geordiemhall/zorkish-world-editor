@@ -1,4 +1,4 @@
 Zorkish World Editor
 ====================
 
-A visual editor for the world file read by my Zorkish spikes.
+A visual editor for the world files read by my Zorkish spikes.

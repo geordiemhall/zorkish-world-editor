@@ -1,0 +1,14 @@
+// ZORKISH WORLD FILE
+// Saved: 2013-26-2 18:43:1
+// EDITOR COMMENTS
+//- ALL_TAGS: openable, container, usable, holdable, lightable, wall
+
+
+
+
+
+== WORLD: World
+	DESCRIPTION_NAME: Forest
+	DESCRIPTION_DISTANT: A magical forest full of wonder and dazzle. And unicorns.
+
+

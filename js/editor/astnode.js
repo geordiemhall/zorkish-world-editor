@@ -59,13 +59,17 @@
 
 	Node.prototype.setParent = function(parentNode){
 
-		this._parent = parentNode;
-		parentNode.addChild(this);
+		this._parent = parentNode
+		parentNode.addChild(this)
 
 	}
 
 	Node.prototype.addChild = function(childNode){
-		this._children[childNode.prop('id')] = childNode;
+		this._children[childNode.prop('id')] = childNode
+	}
+
+	Node.prototype.removeChild = function(childNode){
+		delete this._children[childNode.prop('id')]
 	}
 
 	// Node.prototype.type = function(){
@@ -115,6 +119,9 @@
 		
 		// Print our properties
 		_.each(this.props(), function(value, key){
+
+			if (!value)
+				return
 
 			// Reserved props
 			if (key === 'id' || key === 'type') 

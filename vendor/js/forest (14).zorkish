@@ -1,46 +1,31 @@
-//	X X X		1  2  3
-//  X G X		4  5  6
-//	X   X		7  8  9
-//	X s X		10 11 12    18
-//      X			  13    17
-//      X X			  14 15 16
-
-
-// Special editor comments...
-//- ALL_TAGS: openable, container, usable, holdable, lightable, wall
+Header
 
 == WORLD: World
 	DESCRIPTION_NAME: Forest
-	DESCRIPTION_DISTANT: A magical forest full of wonder and dazzle. And unicorns. 
+	DESCRIPTION_DISTANT: A magical forest full of wonder and dazzle. And unicorns.
 
 	== MAP: Map
-		
+
 		== BLOCK: 1
 			SOUTH: 4
 			EAST: 2
 			TAGS: wall
 			DESCRIPTION_DISTANT: A thick wall of trees.
-		
+
 		== BLOCK: 2
 			SOUTH: 5
-			EAST: 3
+			EAST: null
 			WEST: 1
 			TAGS: wall
 			DESCRIPTION_DISTANT: A thick wall of trees.
-		
-		== BLOCK: 3
-			SOUTH: 6
-			WEST: 2
-			TAGS: wall
-			DESCRIPTION_DISTANT: A thick wall of trees.
-		
+
 		== BLOCK: 4
 			SOUTH: 7
 			NORTH: 1
 			EAST: 5
 			TAGS: wall
 			DESCRIPTION_DISTANT: A thick wall of trees.
-		
+
 		== BLOCK: 5
 			SOUTH: 8
 			NORTH: 2
@@ -48,7 +33,7 @@
 			WEST: 4
 			DESCRIPTION_DISTANT: A glassy clearing with a faint glow coming from some object.
 			DESCRIPTION_DETAILED: The trees around you are bathed in a warm glow, it seems to be coming from a small wooden chest in the middle of the clearing.
-			
+
 			== CHEST: WoodenChest1
 				DESCRIPTION_NAME: chest
 				DESCRIPTION_SINGULAR_PRONOUN: a
@@ -56,8 +41,8 @@
 				DESCRIPTION_SINGULAR: chest
 				DESCRIPTION_DETAILED: It's small chest carved out of a single piece of wood, with copper trimmings and a big clasp at the front. There's a gold glow coming from whatever's within.
 				OPEN: true
-				KEYS_NEEDED: any 	// heart1 (keys with CAN_OPEN that includes heart1)
-				TAGS: openable, container 
+				KEYS_NEEDED: any
+				TAGS: openable, container
 
 				== GOLD: Gold1
 					DESCRIPTION_NAME: gold
@@ -65,12 +50,11 @@
 					DESCRIPTION_SINGULAR: pile of gold
 					DESCRIPTION_PLURAL: piles of gold
 					DESCRIPTION_PLURAL_PRONOUN: some
-					DESCRIPTION_DETAILED: It's a small pile of gold, glowing warm as gold always does. 
+					DESCRIPTION_DETAILED: It's a small pile of gold, glowing warm as gold always does.
 					DESCRIPTION_SINGULAR_POSSESSIVE: the
 					WORTH: 10
-					tags: holdable, usable
+					TAGS: holdable, usable
 
-				
 				== KEY: Key1
 					DESCRIPTION_NAME: key
 					DESCRIPTION_SINGULAR_PRONOUN: a
@@ -80,7 +64,7 @@
 					DESCRIPTION_SINGULAR_POSSESSIVE: the
 					DESCRIPTION_DETAILED: It's a small silver key, dirty and worn down from use, with an ornate heart-shaped handle. Maybe it could be used to open something?
 					TAGS: holdable, usable
-					CAN_OPEN: all // heart1, 
+					CAN_OPEN: all
 
 				== SWORD: Sword1
 					DESCRIPTION_NAME: sword
@@ -92,23 +76,23 @@
 					DESCRIPTION_DETAILED: It's a iron long sword, probably of Dwarven make, with a gold hilt encrusted with a large ruby.
 					DAMAGE: 10
 					TAGS: holdable
-		
+
 		== BLOCK: 6
 			SOUTH: 9
-			NORTH: 3
+			NORTH: null
 			WEST: 5
 			TAGS: wall
 			DESCRIPTION_DISTANT: A thick wall of trees.
-		
+
 		== BLOCK: 7
 			SOUTH: 10
 			NORTH: 4
 			EAST: 8
 			TAGS: wall
 			DESCRIPTION_DISTANT: A thick wall of trees.
-		
-		== BLOCK: 8			
-			SOUTH: 11 
+
+		== BLOCK: 8
+			SOUTH: 11
 			NORTH: 5
 			EAST: 9
 			WEST: 7
@@ -117,65 +101,56 @@
 
 			== CANDLE: Candle1
 				BRIGHTNESS: 10
-				LABEL: Candle 	// What will show up in the bag list
+				LABEL: Candle
 				DESCRIPTION_DISTANT: A short fat candle with a once shiny brass handle.
-				TAGS: holdable, lightable 	// Can be put in your bag, can be used
-		
+				TAGS: holdable, lightable
+
 		== BLOCK: 9
 			SOUTH: 12
 			NORTH: 6
 			WEST: 8
 			TAGS: wall
 			DESCRIPTION_DISTANT: A thick wall of trees.
-		
+
 		== BLOCK: 10
-			SOUTH: 
 			NORTH: 7
 			EAST: 11
 			TAGS: wall
 			DESCRIPTION_DISTANT: A thick wall of trees.
-		
-		== BLOCK: 11		
-			SOUTH: 
+
+		== BLOCK: 11
 			NORTH: 8
 			EAST: 12
 			WEST: 10
-			DESCRIPTION_DISTANT: A grassy clearing. 
+			DESCRIPTION_DISTANT: A grassy clearing.
 			DESCRIPTION_DETAILED: You're in a grassy clearing. The night is dark and you can hear the muffled hoots of hungry owls through the thick pine trees that tower above.
-		
+
 		== BLOCK: 12
 			SOUTH: 13
 			NORTH: 9
 			WEST: 11
-			// EAST: 18
 			TAGS: wall
 			DESCRIPTION_DISTANT: A thick wall of trees.
-
-			
 
 		== BLOCK: 13
 			SOUTH: 14
 			NORTH: 12
-			// WEST: 11
 			TAGS: wall
 			DESCRIPTION_DISTANT: A thick wall of trees.
 
 		== BLOCK: 14
-			// SOUTH: 
 			EAST: 15
 			NORTH: 13
 			TAGS: wall
 			DESCRIPTION_DISTANT: A thick wall of trees.
 
 		== BLOCK: 15
-			// SOUTH: 
 			EAST: 16
 			WEST: 14
-			TAGS:  wall
+			TAGS: x
 			DESCRIPTION_DISTANT: A thick wall of trees.
 
 		== BLOCK: 16
-			// SOUTH: 
 			NORTH: 17
 			WEST: 15
 			TAGS: wall
@@ -184,17 +159,15 @@
 		== BLOCK: 17
 			SOUTH: 16
 			NORTH: 18
-			// WEST: 11
 			TAGS: wall
 			DESCRIPTION_DISTANT: A thick wall of trees.
 
 		== BLOCK: 18
 			SOUTH: 17
-			// NORTH: 12
 			WEST: 12
 			TAGS: wall
 			DESCRIPTION_DISTANT: A thick wall of trees.
-		
+
 	== PLAYER: Player
 		POSITION: 11
 		DESCRIPTION_DETAILED: You're a female elf, shy but smart, with a tangle of thick brown hair that falls about your shoulders, and bright green eyes that sparkle in the sun. You wear a gold and red tunick, brown tights and long leather boots.
@@ -206,4 +179,5 @@
 			DESCRIPTION_SINGULAR_PRONOUN: a
 			DESCRIPTION_SINGULAR_POSSESSIVE: your
 			DESCRIPTION_DETAILED: It's a small leather pouch bound by a leather cord. Something about it seems magical, almost like it's bigger on the inside.
+
 

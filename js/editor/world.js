@@ -36,7 +36,39 @@
 		var self = this
 	
 		self.entity = null
-		self.entityIndex = {}
+		self.editorComments = {}
+		// self.entityIndex = {}
+
+	}
+
+	world.prototype.deleteEntity = function(entity){
+
+		// set this block's parent to be null...
+
+		var realEntity = self.findById(entity.prop('id'))
+
+		realEntity.parent(null)
+
+	}
+
+	// TODO: This should be set to the highest id found when reading a world in
+	var lastIndex = 100
+
+	var generateId = function(){
+		return (++lastIndex) + ''
+	}
+
+	world.prototype.newEntity = function(type){
+
+		var self = this
+
+		var entity = new Entity(new ASTNode({
+			type: type.toUpperCase(),
+			id: generateId()
+		}), self)
+
+
+		return entity
 
 	}
 
@@ -66,6 +98,8 @@
 		var ast = self.generateASTFromText(text)
 		
 		self.entity = new Entity(ast, self)
+
+
 	}
 
 
@@ -80,8 +114,15 @@
 
 		var nodes = []
 		var nodeStack = []
+		var editorComments = {}
 
 		$.each(lines, function(i, line){
+
+			var editorComment = isEditorComment(line)
+			if (editorComment){
+				editorComments[editorComment.key.toUpperCase()] = editorComment.value
+				return true
+			}
 
 			var cleaned = cleanLine(line)
 
@@ -129,12 +170,16 @@
 
 		})
 
+
+		window.EditorComments = editorComments
+
 		return rootNode
 
 	}
 
 	var headerExp = /^\s*==\s*/
 	var propertyExp = /([a-zA-Z_]+)\s*:\s*?(.+)/
+	var editorCommentExp = /^.*\/\/\-\s*([a-zA-Z_]+)\s*:\s*?(.+)/
 
 	var isHeader = function(line){
 		
@@ -161,6 +206,19 @@
 			key: p[1].trim(),
 			value: p[2].trim()
 		}
+	}
+
+	var isEditorComment = function(line){
+
+		var p = line.match(editorCommentExp)
+
+		if (!p) return false
+		
+		return {
+			key: p[1].trim(),
+			value: p[2].trim()
+		}
+
 	}
 
 
@@ -244,11 +302,12 @@
 		this.parent = null
 
 		// And some data
-		this.props.id = node.prop('id')
-		this.props.type = node.prop('type')
+		this.props = $.extend(true, {}, node._props)
+		// this.props.id = node.prop('id')
+		// this.props.type = node.prop('type')
 
 		// Add ourselves to the index
-		world.entityIndex[this.prop('id')] = this
+		// world.entityIndex[this.prop('id')] = this
 
 		// Make entities for children
 		_.each(node.children(), function(d, i){
@@ -262,28 +321,59 @@
 
 	Entity.prototype.setParent = function(parentEntity){
 
+		// If our new parent is null, then remove ourselves from the old parent
+		if (!parentEntity && this.parent)
+			this.parent.removeChild(this)
+
+		// Update our parent
 		this.parent = parentEntity;
-		parentEntity.addChild(this);
+
+		// If our new parent isn't null, then add ourselves as its child
+		if (this.parent)
+			this.parent.addChild(this)
+
 
 	}
 
 	Entity.prototype.addChild = function(childEntity){
+		// Since we're using id as the lookup, we don't need to worry about duplicates
 		this.children[childEntity.prop('id')] = childEntity;
 	}
 
+	Entity.prototype.removeChild = function(childEntity){
+		// Delete it from our children object
+		this.node.removeChild(childEntity)
+		delete this.children[childEntity.prop('id')]
+
+	}
+
+	Entity.prototype.remove = function(){
+
+		this.setParent(null)
+		
+	}
+
+
+
 	
-	Entity.prototype.toNode = function(){	
+	Entity.prototype.toNode = function(){
 
 
 		// Make a new node?
-		// var newNode = new ASTNode(this.props)
-		// return newNode
+		var newNode = new ASTNode(this.props)
+
+		_.each(this.children, function(d, i){
+			var n = d.toNode()
+			n.setParent(newNode)
+		})
+
+		return newNode
 
 
 		// Overwrite our exiting node's data
-		this.node.prop(this.props)
+		// this.node.prop(this.props)
 
-		return this.node
+		// return this.node
 		
 
 	}

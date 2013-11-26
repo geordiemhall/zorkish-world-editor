@@ -37,7 +37,7 @@ $(function(){
 		$input: $('.file-open'),
 		onOpen: function(contents, filename){
 			console.log('onOpen: ')
-			console.log(contents)
+			// console.log(contents)
 
 			// We don't need the work area to be a click zone
 			$('.work-area .file-container').hide()

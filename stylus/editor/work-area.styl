@@ -50,16 +50,21 @@ text
 	pointer-events: none
 
 
-	&.parent 
-		fill: #1f77b4
+	// &.parent 
+	// 	fill: #1f77b4
 
 .block
 .port
 	cursor: pointer
 
+
+.hide-link
+	stroke: none !important
+
 .block 
+	// Default node is baby blue
 	fill: #63BBF5
-	fill-opacity: 1
+	fill-opacity: 0.9
 	stroke: #3687B4
 	stroke-width: 2px
 	pointer-events: all
@@ -68,66 +73,143 @@ text
 	&:hover
 		fill-opacity: 1
 
+	
+
+	&.port-select
+		// fill: lighten(green, 50%)
+		// stroke: green
+		fill: #6BEE75
+		stroke: rgba(0, 128, 0, 0.39);
+		cursor: crosshair
+
+	// Default selecte
 	&.selected
-		stroke-width: 3px
-		stroke: #999
+		stroke: #3E9BCE;
+		fill: #AEE8FF;
 
+#arrowhead
+	fill: grey
 
-.hide-link
-	stroke: none !important
-
-
-.tag-wall
-	fill: #DFD3BD
+// Walls are orange
+[data-tags~="tag-wall"]
+	// fill: #DFD3BD
 	fill: #FFC356
 	stroke: #FF8F00
 
+	&.selected
+		fill: #FFDEA1;
+		stroke: #FFAA3D;
+
+
+.is-dragging-link *
+	cursor: crosshair
 
 
 .link 
 	fill: none;
 	stroke: #ccc;
-	stroke-width: 3px;
+	stroke-width: 3px	
+	
+
+	&.is-dragging
+		stroke: rgba(0, 128, 0, 0.39);
+		pointer-events: none
 
 .link-selected
-	stroke: #ff7f0e;
+	// stroke: #ff7f0e;
+	stroke: rgba(0, 128, 0, 0.39);
+
+
 
 .disable-pointer-events .block
 	pointer-events: none
 
-text
-	fill: rgba(0, 0, 0, 0.4) !important;
+.node-label
+	fill: rgba(0, 0, 0, 0.4);
 	stroke: none !important;
 	font-weight: bold;
 
 .port
 	fill: #666
 	fill-opacity: 0.0
-	cursor: crosshair
+	
 
-	&.active
+	
+	// When a node is hovered over
+	&.node-hover
+		fill-opacity: 0.8
+	
+	// When a port is hovered or selected (like during a drag)
+	&.hover
+	&.show
+		fill-opacity: 1
+
+
+
+
+	// Colours
+
+
+
+	&.linked
 		fill: #666
 
-	&.show
-	&.force-show
-	&.be-available
-		// fill: red
-		fill-opacity: 0.7
-
-	&:hover
-	&.is-dragging
-		fill-opacity: 1
+	&.hover
+		fill: #6BEE75
+		stroke: rgba(0, 128, 0, 0.39);
+		stroke-width: 2px;
+		cursor: crosshair
 
 	&.highlight
-	&:hover
-		fill: red !important
-		fill-opacity: 1
+		fill: red 
 
 	&.source-connection
-		fill: magenta !important
+		fill: #6BEE75
+		stroke: rgba(0, 128, 0, 0.39);
+		stroke-width: 2px;
 
-	&.valid-connection
-		fill: green !important
+.is-dragging-new-node
+	& *
+		cursor: copy !important
+
+
+	// &.valid-connection
+	// 	fill: green !important
+
+svg
+	user-select: none
+
+.disable-pointer-events
+	pointer-events: none
+
+.port-label
+	pointer-events: none
+	fill: #fff
+	fill-opacity: 0.0
+
+	// stroke: #222
+	// stroke-width: 1px
+	
+
+	
+	// When a node is hovered over
+	&.node-hover
+		fill-opacity: 0.8
+
+	// When a port is hovered or selected (like during a drag)
+	&.hover
+	&.show
+		fill-opacity: 1
+		fill: #299614;
+		font-weight: bold
+		cursor: crosshair
+
+
+	&.hover
+		
+		fill: #299614;
+		font-weight: bold
+		cursor: crosshair
 
 	
 

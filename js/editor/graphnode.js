@@ -18,7 +18,7 @@
 	// 	return new Node(entity)
 	// }
 
-	var capitaliseFirstLetter = function(string){
+	window.capitaliseFirstLetter = function(string){
 	    return string.charAt(0).toUpperCase() + string.slice(1);
 	}
 
@@ -44,15 +44,60 @@
 		this.graph = graph
 
 		this.children = []
+		this.parent = null
 
 		console.log('GraphNode init')
 		this.init()
 
 
 		_.each(entity.children, function(en, i){
-			self.children.push(GraphNodeFactory(en, graph))
+			var node = GraphNodeFactory(en, graph)
+			node.setParent(self)
 		})
 
+	}
+
+	GraphNode.prototype.remove = function(){
+
+		console.log('delete ourselves')
+
+		this.setParent(null)
+
+	}
+
+	GraphNode.prototype.setParent = function(parentNode){
+
+		// If our new parent is null, then remove ourselves from the old parent
+		if (!parentNode && this.parent)
+			this.parent.removeChild(this)
+
+		// Update our parent
+		this.parent = parentNode;
+
+		// If our new parent isn't null, then add ourselves as its child
+		if (this.parent)
+			this.parent.addChild(this)
+
+		this.entity.setParent(parentNode && parentNode.entity || null)
+
+	}
+
+	GraphNode.prototype.hasChild = function(childNode){
+
+		return _.contains(this.children, childNode)
+
+	}
+
+	GraphNode.prototype.addChild = function(childEntity){
+		// Since we're using id as the lookup, we don't need to worry about duplicates
+		if (!this.hasChild(childEntity))
+			this.children.push(childEntity);
+	}
+
+	GraphNode.prototype.removeChild = function(childEntity){
+
+		// Remove it from our children
+		this.children = _.without(this.children, childEntity)
 	}
 
 	GraphNode.prototype.init = function(){
@@ -158,6 +203,8 @@
 		}, true, true)
 	}
 
+	
+
 
 	
 
@@ -180,6 +227,7 @@
 	BlockNode.prototype.initComponents = function(){
 
 		console.log('BlockNode init')
+		this.addComponent(Components.Tags)
 		this.addComponent(Components.Directions)
 
 		this.pane = {

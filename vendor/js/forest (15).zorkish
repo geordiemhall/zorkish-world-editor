@@ -1,0 +1,9 @@
+Header// EDITOR COMMENTS
+//- ALL_TAGS: openable, container, usable, holdable, lightable, wall
+
+
+== WORLD: World
+	DESCRIPTION_NAME: Forest
+	DESCRIPTION_DISTANT: A magical forest full of wonder and dazzle. And unicorns.
+
+

@@ -49,6 +49,7 @@
 			var newValue = $(this).val()
 
 			self.graphNode.prop(property, newValue)
+			self.graphNode.graph.propertyDidChange()
 
 			console.log(property, 'newValue', newValue)
 		})
@@ -83,7 +84,8 @@
 			label: 'New field:',
 			type: 'text',
 			prompt: '',
-			onChange: $.noop
+			onChange: $.noop,
+			readonly: false
 		}, options)
 
 		this.init()
@@ -106,6 +108,9 @@
 					name: opts.fieldName,
 					id: opts.fieldName
 				})
+
+			if(opts.readonly)
+				$input.attr('readonly', 'readonly')
 
 			return {
 				$input: $input,
@@ -147,6 +152,7 @@
 
 		return this.inputTypes[type]({
 			prompt: this.opts.prompt,
+			readonly: this.opts.readonly,
 			fieldName: this.fieldName
 		})
 
@@ -289,30 +295,121 @@
 		this.getElementForProperty({
 			prop: 	'NORTH',
 			label: 	'North',
-			prompt: 'Block to the north of this one'
+			prompt: 'Nothing to the north',
+			readonly: true
 		}).addToBlock($container)
 
 		this.getElementForProperty({
 			prop: 	'SOUTH',
 			label: 	'South',
-			prompt: 'Block to the south of this one'
+			prompt: 'Nothing to the south',
+			readonly: true
 		}).addToBlock($container)
 
 		this.getElementForProperty({
 			prop: 	'WEST',
 			label: 	'West',
-			prompt: 'Block to the west of this one'
+			prompt: 'Nothing to the west',
+			readonly: true
 		}).addToBlock($container)
 
 		this.getElementForProperty({
 			prop: 	'EAST',
 			label: 	'East',
-			prompt: 'Block to the east of this one'
+			prompt: 'Nothing to the east',
+			readonly: true
 		}).addToBlock($container)
 
 		return $container
 	}
 
+
+	/**
+	* Tags
+	*/
+
+	var Tags = Components.Tags = function(entity) {
+	    Component.apply(this, arguments);
+	}
+
+	var tagsFromString = function(str){
+
+		var nodeTags = (str && str.split(',') || [])
+			.map(function(d){ 
+				return d.trim().toLowerCase() 
+			})
+		return nodeTags
+	}
+
+	var tagsToString = function(arr){
+		return arr && arr.length && arr.join(', ') || ''
+	}
+	
+	Tags.prototype = Object.create(Component.prototype);
+
+	Tags.prototype.present = function($container){
+
+		var self = this
+
+
+		var $tags = $('<select class="selectpicker" multiple></select>')
+			.appendTo($container)
+
+		
+		var allTags = tagsFromString(window.EditorComments['ALL_TAGS'])
+		var nodeTags = tagsFromString(self.graphNode.prop('TAGS'))
+
+		// Store tag values in lower case
+
+		console.log("allTags array", allTags)
+
+		allTags.forEach(function(d){
+			var $opt = $('<option>').val(d).text(capitaliseFirstLetter(d))
+				.appendTo($tags)
+
+			if (nodeTags.indexOf(d) >= 0){
+				// $opt.prop('selected', true)
+				$opt.attr('selected', 'selected')
+			}
+
+		})
+
+		nodeTags.forEach(function(d){
+
+		})
+
+
+
+		console.log('nodeTags', nodeTags)
+
+		
+
+		// $tags.on('keyup change', function(e){
+			
+
+		// 	var newValue = $(this).val()
+
+		// 	self.graphNode.prop(property, newValue)
+
+		// 	console.log(property, 'newValue', newValue)
+		// })
+
+		
+
+		
+		// var initialValue = self.graphNode.prop(property)
+		
+		// Fill with the default value
+		// $tags
+		// 	.val(initialValue)
+		// 	.change().keyup()	// and trigger change so that it can update if it needs to
+
+
+		
+
+
+		return $container
+	}
 
 
 
